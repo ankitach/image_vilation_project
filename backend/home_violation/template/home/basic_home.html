@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page</title>
+  <link rel="stylesheet" href={% static 'home_violation/css/bootstrap.css' %}>
+  <link rel="stylesheet" href={% static 'css/ppe.css' %}> 
+  </head>
+  <body>
+    <section id="main">
+    <form>
+      {% include 'navbar\navbar.html' %}
+      
+      <div class="container"></div>
+      <div script="background-color: #D4D7DC;">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="Personal_Protective_Equipment/ppe.html">
+                <div class="card card-tiles-wrapper card_wrapper_info">
+                  <div class="card-body ">
+                    <h5 class="card-title">Personal Protective Equipment</h5>
+
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <div class="card card-tiles-wrapper card_wrapper_info">
+                <div class="card-body">
+                  <h5 class="card-title">Fire Detection</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-tiles-wrapper card_wrapper_info">
+                <div class="card-body">
+                  <h5 class="card-title">Total Traffic Solution</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card card-tiles-wrapper card_wrapper_info">
+                <div class="card-body">
+                  <h5 class="card-title">Bag/Package Management</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-tiles-wrapper card_wrapper_info">
+                <div class="card-body">
+                  <h5 class="card-title">Bag/Package Management</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-tiles-wrapper card_wrapper_info">
+                <div class="card-body">
+                  <h5 class="card-title">Dummy</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <section>
+
+  <script src="{% static 'home_violation/js/bootstrap.js' %}"></script> 
+  <script src="{% static 'js/popper.min.js' %}"></script> 
+  </body>
+</html>
